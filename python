@@ -1,0 +1,17 @@
+# Assigning boolean values
+is_active = True
+is_complete = False
+# Using boolean values in conditions
+if is_active:
+    print("The system is active.")
+else:
+    print("The system is not active.")
+# Logical operations
+print(is_active and is_complete)  # Output: False
+print(is_active or is_complete)   # Output: True
+print(not is_active)              # Output: False
+# Boolean conversion
+print(bool(0))   # Output: False
+print(bool(1))   # Output: True
+print(bool(""))  # Output: False
+print(bool("abc"))  # Output: True
